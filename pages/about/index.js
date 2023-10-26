@@ -1,13 +1,10 @@
-import React from "react";
+import React from 'react'
+import Layout from '../../components/Layout'
 
 export default function index() {
   return (
-    <button
-      onClick={() => {
-        console.log("woo~");
-      }}
-    >
-      test page : about us!
-    </button>
+    <Layout title="About us">
+      <h1>this is about page</h1>
+    </Layout>
   );
 }
