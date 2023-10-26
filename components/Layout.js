@@ -14,14 +14,14 @@ export default ({ children, title = "Default title" }) => (
         <Link href="/">
           <a>Home</a>
         </Link>
+        <Link href="/articles">
+          <a>Articles</a>
+        </Link>
+        <Link href="/meals">
+          <a>Meals</a>
+        </Link>
         <Link href="/about">
-          <a>About</a>
-        </Link>
-        <Link href="/about/contact">
-          <a>Contact</a>
-        </Link>
-        <Link href="/test">
-          <a>Test</a>
+          <a>About us</a>
         </Link>
       </nav>
     </header>
