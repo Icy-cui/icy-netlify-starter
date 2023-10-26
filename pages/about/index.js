@@ -7,7 +7,7 @@ export default function index() {
         console.log("woo~");
       }}
     >
-      test page : about us
+      test page : about us!
     </button>
   );
 }
