@@ -1,19 +1,14 @@
-import Layout from '../components/Layout'
-import Link from "next/link";
+import Layout from "../components/Layout";
+import testImg from "../assets/test.jpg";
 
 export default function Home() {
+  console.log(testImg.src);
   return (
     <Layout title="icy&hang homeee">
       <main>
-        <h1 className="title">Welcome Dr hang!</h1>
-        <p className="description">Get started sooooon...</p>
-        <ul className="menu">
-          <li>
-            <Link href="/about" passHref>
-              <a>about us</a>
-            </Link>
-          </li>
-        </ul>
+        <h1 className="text-3xl italic font-bold">Hello Dr. hang!</h1>
+        <p className="description py-10"><code>welcome to our pages. YOu cAn ShaRe yOuR Idea.</code></p>
+        <img src={testImg.src} style={{ width: "20rem" }}></img>
       </main>
     </Layout>
   );
