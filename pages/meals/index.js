@@ -1,6 +1,6 @@
 import React from "react";
 import Layout from "../../components/Layout";
-import MealCard from "./mealCard";
+import MealCard from "./MealCard";
 
 export default function index() {
   return (
