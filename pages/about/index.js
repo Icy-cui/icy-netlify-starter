@@ -4,8 +4,8 @@ import Layout from "../../components/Layout";
 export default function index() {
   return (
     <Layout title="About us">
-      <div className="min-h-screen bg-gray-50">
-        <div className="py-auto mx-auto my-10 max-w-2xl bg-cover sm:py-3 sm:px-2">
+      <div className="flex min-h-full justify-center bg-gray-50">
+        <div className="py-auto mx-auto my-10 max-w-2xl bg-cover sm:px-2 sm:py-3">
           <div className="group relative">
             <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
             <div className="items-top relative flex justify-start space-x-6 rounded-lg bg-white px-7 py-6 leading-none ring-1 ring-gray-900/5">
