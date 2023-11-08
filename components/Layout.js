@@ -52,6 +52,10 @@ export default ({ children, title = "Default title" }) => (
         color: #000;
         text-decoration: underline;
       }
+      nav a:active {
+        color: #000;
+        text-decoration: underline;
+      }
       footer {
         position: fixed;
         bottom: 0;
