@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import styles from "./Meals.module.css";
-import testImg from '../../assets/test.jpg'
+import testImg from "../../assets/test.jpg";
 
 export default function MealCard() {
   return (
