@@ -4,7 +4,7 @@ import Layout from "../../components/Layout";
 export default function index() {
   return (
     <Layout title="About us">
-      <div className="flex min-h-full justify-center bg-gray-50">
+      <div className="flex min-h-full justify-center">
         <div className="py-auto mx-auto my-10 max-w-2xl bg-cover sm:px-2 sm:py-3">
           <div className="group relative">
             <div className="absolute -inset-1 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 opacity-25 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
@@ -14,7 +14,7 @@ export default function index() {
                   Who are we:
                 </h2>
                 <p className="pr-4 leading-7 text-slate-800">
-                  Welcome to our blog, I'm Icy and my bf is Hang. <br></br>We
+                  Welcome to our blog, We are Icy and Hang. <br></br>We
                   enjoy our life, making coffee, cooking, coding, and also proud
                   to be an amateur in photography after we get our new FUJI
                   camera.

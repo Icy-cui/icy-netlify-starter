@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Head from "next/head";
 import styles from "./Footer.module.css";
+// import { Head } from "next/document";
 
 export default ({ children, title = "Default title" }) => (
   <div>

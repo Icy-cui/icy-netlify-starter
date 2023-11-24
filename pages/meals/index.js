@@ -15,7 +15,6 @@ export default function index() {
           <MealCard></MealCard>
           <MealCard></MealCard>
           <MealCard></MealCard>
-          <MealCard></MealCard>
         </div>
       </div>
     </Layout>
