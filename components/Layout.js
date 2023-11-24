@@ -1,7 +1,5 @@
 import Link from "next/link";
 import Head from "next/head";
-import styles from "./Footer.module.css";
-// import { Head } from "next/document";
 
 export default ({ children, title = "Default title" }) => (
   <div>
@@ -18,8 +16,11 @@ export default ({ children, title = "Default title" }) => (
         <Link href="/articles">
           <a>Articles</a>
         </Link>
-        <Link href="/meals">
+        {/* <Link href="/meals">
           <a>Meals</a>
+        </Link> */}
+        <Link href="/timeline">
+          <a>Timeline</a>
         </Link>
         <Link href="/about">
           <a>About us</a>
@@ -29,7 +30,9 @@ export default ({ children, title = "Default title" }) => (
 
     {children}
 
-    <footer className={styles.footer}>:)))</footer>
+    <footer className="footer flex h-24 w-full items-center justify-center border-t-black  bg-base-100 text-center">
+      :)))
+    </footer>
 
     <style jsx>{`
       nav {

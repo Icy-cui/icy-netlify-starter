@@ -9,7 +9,7 @@ export default function Home() {
         <div style={{ width: "20rem", height: "5rem" }}>
           <div className="diff aspect-[14/3]">
             <div className="diff-item-1">
-              <div className="grid place-content-center bg-primary text-2xl font-black text-primary-content">
+              <div className="grid place-content-center bg-accent text-2xl font-black text-secondary-content">
                 Hello, Dr Hangggg!
               </div>
             </div>
