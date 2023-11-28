@@ -1,6 +1,4 @@
 import Layout from "../components/Layout";
-// import testImg from "../assets/test.jpg";
-import bgImg from "../assets/bg-img.jpeg";
 
 export default function Home() {
   return (
@@ -21,10 +19,18 @@ export default function Home() {
             <div className="diff-resizer"></div>
           </div>
         </div>
-        <p className="description py-10 leading-10">
-          <code>Stay Hungry. Stay Foolish.</code>
-        </p>
-        <img src={bgImg.src} style={{ width: "30rem" }}></img>
+        <p className="description py-4 leading-10"></p>
+        <div className="h-auto w-96">
+          <div className="chat chat-start">
+            <div className="chat-bubble">
+              You are the best! <br />
+              Stay Hungry. Stay Foolish.
+            </div>
+          </div>
+          <div className="chat chat-end">
+            <div className="chat-bubble">You underestimate my power!</div>
+          </div>
+        </div>
       </main>
     </Layout>
   );
