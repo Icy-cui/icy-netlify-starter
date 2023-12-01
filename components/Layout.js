@@ -29,7 +29,7 @@ export default function Layout({ children, title = "Default title" }) {
                   Home
                 </a>
               </li>
-              <li className="px-2">
+              <li className="px-8">
                 <a className="link-hover link" href="/articles">
                   Articles
                 </a>
@@ -39,7 +39,7 @@ export default function Layout({ children, title = "Default title" }) {
                   Timeline
                 </a>
               </li>
-              <li className="px-2">
+              <li className="px-8">
                 <a className="link-hover link" href="/about">
                   About us
                 </a>
@@ -110,31 +110,6 @@ export default function Layout({ children, title = "Default title" }) {
       </footer>
 
       <style jsx>{`
-        nav {
-          width: 100%;
-          border-bottom: 1px solid #ccc;
-          line-height: 80px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-        }
-        nav a {
-          margin: 0 10px;
-          color: #666;
-          text-decoration: none;
-        }
-        nav a:hover {
-          color: #000;
-          text-decoration: underline;
-        }
-        nav a:focus {
-          color: #000;
-          text-decoration: underline;
-        }
-        nav a:active {
-          color: #000;
-          text-decoration: underline;
-        }
         footer {
           position: fixed;
           bottom: 0;
