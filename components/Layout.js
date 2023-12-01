@@ -25,24 +25,24 @@ export default function Layout({ children, title = "Default title" }) {
           <div className="navbar-center hidden lg:flex">
             <ul className="menu menu-horizontal px-1">
               <li>
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
+                <a className="link-hover link" href="/">
+                  Home
+                </a>
               </li>
               <li>
-                <Link href="/articles">
-                  <a>Articles</a>
-                </Link>
+                <a className="link-hover link" href="/articles">
+                  Articles
+                </a>
               </li>
               <li>
-                <Link href="/timeline">
-                  <a>Timeline</a>
-                </Link>
+                <a className="link-hover link" href="/timeline">
+                  Timeline
+                </a>
               </li>
               <li>
-                <Link href="/about">
-                  <a>About us</a>
-                </Link>
+                <a className="link-hover link" href="/about">
+                  About us
+                </a>
               </li>
             </ul>
           </div>
