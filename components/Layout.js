@@ -29,7 +29,7 @@ export default function Layout({ children, title = "Default title" }) {
                   Home
                 </a>
               </li>
-              <li>
+              <li className="px-2">
                 <a className="link-hover link" href="/articles">
                   Articles
                 </a>
@@ -39,7 +39,7 @@ export default function Layout({ children, title = "Default title" }) {
                   Timeline
                 </a>
               </li>
-              <li>
+              <li className="px-2">
                 <a className="link-hover link" href="/about">
                   About us
                 </a>
